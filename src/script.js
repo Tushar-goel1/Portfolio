@@ -6,13 +6,14 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
-
+import store from "./utils/store";
+import {Provider} from 'react-redux'
 
 const App =()=>{
     return(
-        <>
+        <Provider store={store}>
             <RouterProvider router={Approutes}/>
-        </>
+        </Provider>
     )
 }
 const Approutes=createBrowserRouter([{

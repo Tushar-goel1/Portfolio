@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='flex flex-wrap justify-between items-center px-12  bg-gray-400 bg-opacity-15 h-[10vh] '>
+    <div className='sm:flex sm:flex-wrap sm:justify-between sm:mt-4 sm:pb-4 md:bg-gray-400 sm:bg-gray-400 sm:bg-opacity-15 sm:items-center md:px-2 md:items-center md:bg-opacity-15 md:h-[8vh] md:pt-2 sm:pt-2 sm:px-2'>
       <div>Designed and Developed by Tushar Goel</div>
       <div>Copyright @2024 TG</div>
       <div className='flex'>
