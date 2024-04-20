@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 const Body = () => {
   return (
-    <div className='bg-fixed h-max text-white'  style={{backgroundImage:"url("+ `https://cdn.pixabay.com/photo/2018/10/16/07/07/stars-3750824_960_720.png` +")"}}>
+    <div className='bg-fixed h-max text-white'  style={{backgroundImage:"url("+ require('../Assets/images/background.png') +")"}}>
       <Header/>
       <Outlet/>
       <Footer/>
