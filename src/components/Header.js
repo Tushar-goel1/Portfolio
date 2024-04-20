@@ -37,9 +37,9 @@ const Header = () => {
         >
         {
           OpenMenu?<img alt='cross sign' className='h-8 w-8 '
-            src='https://cdn-icons-png.flaticon.com/512/25/25364.png'/>
+            src={require('../Assets/images/wrong.png')}/>
           :<img alt='hamberger menu' className='h-8 w-8'
-            src='https://w7.pngwing.com/pngs/626/110/png-transparent-black-logo-computer-icons-hamburger-button-menu-new-menu-angle-text-rectangle.png'/>
+            src={require('../Assets/images/hamberger.png')}/>
         }
 
         </button>

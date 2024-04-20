@@ -20,7 +20,7 @@ const About = () => {
         </div>
         <div className='sm:pb-12 sm:pt-8 md:w-[35vw] '>
           <img alt='Home pic'  className='md:h-[400px] sm:h-80 md:w-[38vw]'
-            src='https://cdni.iconscout.com/illustration/premium/thumb/man-coder-developed-code-in-computer-6818031-5625514.png?f=webp'
+            src={require('../Assets/images/About.webp')}
           />
         </div>
       </div>

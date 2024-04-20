@@ -18,7 +18,7 @@ const Home = () => {
         </div>
         <div className='sm:pb-8 md:h-[400px] md:w-96'>
           <img alt='Home pic' className='sm:w-72 sm:h-72 md:h-96 md:w-96'
-            src='https://www.smacware.com/wp-content/uploads/2021/02/php-web-developer.png'
+            src={require('../Assets/images/home.png')}
           />
         </div>
       </div>
@@ -36,7 +36,7 @@ const Home = () => {
         </div>
         <div className='sm:pb-8'>
           <img alt='svg.icon' className='h-64 w-56'
-           src='https://raw.githubusercontent.com/tom555my/react-native-avataaars/HEAD/avataaars.png'/>
+           src={require('../Assets/images/avatars.png')}/>
         </div>
       </div>
 

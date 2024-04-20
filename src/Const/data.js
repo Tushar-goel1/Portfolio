@@ -28,35 +28,35 @@ const ProjectData=[
 export const SymbolData=[
     {
         name:'C++ Symbol',
-        url:'https://freepngimg.com/thumb/c++/5-2-c++-png-thumb.png'
+        url:require('../Assets/images/C++.png')
     },
     {
         name:'HTML Symbol',
-        url:'https://images.vexels.com/media/users/3/166382/isolated/preview/1ad81b62ad0ec81a584bc22016fd016f-html-programming-language-flat.png'
+        url:require('../Assets/images/HTML.webp')
     },
     {
         name:'CSS Symbol',
-        url:'https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png'
+        url:require('../Assets/images/css.png')
     },
     {
         name:'tailwindcss',
-        url:'https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/31/tailwind.png'
+        url:require('../Assets/images/tailwind.png')
     },
     {
         name:'JavaScript',
-        url:'https://wafris.org/assets/nodejs-logo-468fb2867c02844fbd9383f06ac64659ce1517fe42de04687efef69e46e6e07a.png'
+        url:require('../Assets/images/JS.png')
     },
     {
         name:'Reactjs',
-        url:'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png'
+        url:require('../Assets/images/React.webp')
     },
     {
         name:'Reduxjs',
-        url:'https://cdn.iconscout.com/icon/free/png-256/free-redux-283024.png?f=webp'
+        url:require('../Assets/images/Redux.webp')
     },
     {
         name:'React-Router-Dom',
-        url:'https://cdn.freebiesupply.com/logos/large/2x/react-router-logo-png-transparent.png'
+        url:require('../Assets/images/react-router-logo.png')
     }
 ]
 
